@@ -32,9 +32,11 @@ After importing the needed libraries - pandas, seaborn, matplotlib, numpy
 #Then predictions=rf_random.predict(X_test)
 
 #sns.distplot(Y_test-predictions) --> plot the SD of the difference between Test and Prediction
+
 ![Normal Dis](https://user-images.githubusercontent.com/56570977/102542036-3538e700-40d7-11eb-91ba-f5b4fba08412.JPG)
 
 #plt.scatter(Y_test,predictions)
+
 ![Linear Dist](https://user-images.githubusercontent.com/56570977/102542055-3b2ec800-40d7-11eb-9720-7458ee9a0ccc.JPG)
 
 #Make the pickle file
